@@ -1,4 +1,4 @@
-# signvoy-com
+# Signvoy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,161 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-signvoy-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://signvoy.com/
+Signvoy provides a modern e‑signature platform that lets businesses create, send, and manage legally‑binding documents online. Users can build reusable signing templates, embed fields into PDFs, and collect signatures via a REST API or embedded signing flow. The service offers features like audit‑trail tamper evidence, multi‑signer routing, AI‑assisted document generation, and compliance with ESIGN, UETA, and eIDAS across 40+ countries. Plans include a free forever tier and paid options for higher volume and advanced controls.
+
+**Areas:** eSignature · DocumentAutomation · SaaS · API · Productivity
+
+## Signvoy on APIs.io
+
+Everything profiled for Signvoy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signvoy-com/](https://apis.io/providers/signvoy-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [Signvoy Agent API](https://apis.io/apis/signvoy-com/signvoy-com-agent-api/) — AI agent sessions for template generation, field detection, and conversational editing
+- [Signvoy API Keys API](https://apis.io/apis/signvoy-com/signvoy-com-api-keys-api/) — Create and revoke workspace-scoped API keys for programmatic access
+- [Signvoy Billing API](https://apis.io/apis/signvoy-com/signvoy-com-billing-api/) — Plan, seats, and usage — read entitlements, start a checkout, open the customer portal
+- [Signvoy Contacts API](https://apis.io/apis/signvoy-com/signvoy-com-contacts-api/) — The workspace address book — shared by every member, filled automatically from the recipients of each document sent, and readable as a recipient picker
+- [Signvoy Documents API](https://apis.io/apis/signvoy-com/signvoy-com-documents-api/) — Document creation and lifecycle management
+- [Signvoy Embed API](https://apis.io/apis/signvoy-com/signvoy-com-embed-api/) — Mint scoped signing-session URLs for embedding the signing experience in your own UI
+- [Signvoy Health API](https://apis.io/apis/signvoy-com/signvoy-com-health-api/) — Health check endpoints
+- [Signvoy MCP API](https://apis.io/apis/signvoy-com/signvoy-com-mcp-api/) — Model Context Protocol grants — authorise and revoke AI agent access per workspace
+- [Signvoy Notifications API](https://apis.io/apis/signvoy-com/signvoy-com-notifications-api/) — In-app notifications — list, unread counts, and read-state management
+- [Signvoy Signatures API](https://apis.io/apis/signvoy-com/signvoy-com-signatures-api/) — The signed-in user's reusable signature library — scoped to the user, not a workspace, so the same signatures are available wherever they sign
+- [Signvoy Signing API](https://apis.io/apis/signvoy-com/signvoy-com-signing-api/) — Public signing endpoints for recipients
+- [Signvoy Submissions API](https://apis.io/apis/signvoy-com/signvoy-com-submissions-api/) — Document submission and completion tracking
+- [Signvoy Template Gallery API](https://apis.io/apis/signvoy-com/signvoy-com-template-gallery-api/) — Curated starter templates
+- [Signvoy Template Versions API](https://apis.io/apis/signvoy-com/signvoy-com-template-versions-api/) — Draft and published template version management
+- [Signvoy Templates API](https://apis.io/apis/signvoy-com/signvoy-com-templates-api/) — PDF template management
+- [Signvoy Users API](https://apis.io/apis/signvoy-com/signvoy-com-users-api/) — The signed-in user's own profile and onboarding progress — scoped to the user, not a workspace
+- [Signvoy Webhooks API](https://apis.io/apis/signvoy-com/signvoy-com-webhooks-api/) — Webhook endpoint management — register URLs, manage subscriptions, view delivery history
+- [Signvoy Workspaces API](https://apis.io/apis/signvoy-com/signvoy-com-workspaces-api/) — Workspace management and member operations
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Signvoy Com Webhooks](https://apis.io/asyncapis/signvoy-com/signvoy-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Signvoy Agentic Access](https://apis.io/agentic-access/signvoy-com/signvoy-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BillingSummaryDto](https://apis.io/schemas/signvoy-com/signvoy-com-billing-summary-dto/)
+- [ContactDto](https://apis.io/schemas/signvoy-com/signvoy-com-contact-dto/)
+- [CreateDocumentDto](https://apis.io/schemas/signvoy-com/signvoy-com-create-document-dto/)
+- [DocumentDto](https://apis.io/schemas/signvoy-com/signvoy-com-document-dto/)
+- [GalleryTemplateDto](https://apis.io/schemas/signvoy-com/signvoy-com-gallery-template-dto/)
+- [UpdateDocumentDto](https://apis.io/schemas/signvoy-com/signvoy-com-update-document-dto/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signvoy Com Context](https://apis.io/jsonld/signvoy-com/signvoy-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Signvoy API Rules](https://apis.io/rules/signvoy-com/signvoy-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Signvoy Authentication](https://apis.io/security/signvoy-com/signvoy-com-authentication/)
+- [Signvoy Domain Security](https://apis.io/security/signvoy-com/signvoy-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Signvoy Plans Pricing](https://apis.io/plans/signvoy-com/signvoy-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Signvoy Rate Limits](https://apis.io/rate-limits/signvoy-com/signvoy-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.signvoy.com/)
+- [Documentation](https://www.signvoy.com/developers)
+- [Getting started](https://www.signvoy.com/developers/quickstart)
+- [API reference](https://www.signvoy.com/developers/reference)
+- [Pricing](https://www.signvoy.com/pricing)
+- [Support](https://www.signvoy.com/contact)
+- [Blog](https://www.signvoy.com/blog)
+- [Security](https://www.signvoy.com/blog/tag/security)
+- [Terms of service](https://www.signvoy.com/terms)
+- [Privacy policy](https://www.signvoy.com/privacy)
+- [GitHub](https://github.com/signvoy)
+
+## API Evangelist rating
+
+**Kin Score 60.8** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.6 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 48.5 |
+
+**Agent readiness 49.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signvoy-com/](https://apis.io/providers/signvoy-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Signvoy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/signvoy-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
